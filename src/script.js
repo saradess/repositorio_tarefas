@@ -1,12 +1,13 @@
-var nome = "Sara";
+"use strict";
+const nome = "Sara";
 function dizOla(nome) {
-    return "Ola ".concat(nome);
+    return `Ola ${nome}`;
 }
-var dizOlaNome = dizOla(nome);
+const dizOlaNome = dizOla(nome);
 console.log(dizOlaNome);
-function somar(primeiroValor, segundoValor) {
-    var resultadoSomar = primeiroValor + segundoValor;
-    return resultadoSomar;
+function multiplicar(primeiroValor, segundoValor) {
+    const resultadoMultiplicar = primeiroValor * segundoValor;
+    return resultadoMultiplicar;
 }
-var resultado = somar(1994, 2025);
+const resultado = multiplicar(1994, 2025);
 console.log(resultado);

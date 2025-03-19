@@ -7,10 +7,10 @@ function dizOla(nome: string): string {
 const dizOlaNome = dizOla(nome);
 console.log(dizOlaNome);
 
-function somar(primeiroValor: number, segundoValor: number): number {
-    const resultadoSomar = primeiroValor + segundoValor;
-    return resultadoSomar;
+function multiplicar(primeiroValor: number, segundoValor: number): number {
+    const resultadoMultiplicar = primeiroValor * segundoValor;
+    return resultadoMultiplicar;
 }
 
-const resultado = somar(1994, 2025);
+const resultado = multiplicar(1994, 2025);
 console.log(resultado);
