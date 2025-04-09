@@ -1,13 +1,12 @@
 "use strict";
 const nome = "Sara";
+const dizOlaNome = dizOla(nome);
 function dizOla(nome) {
     return `Ola ${nome}`;
 }
-const dizOlaNome = dizOla(nome);
+;
 console.log(dizOlaNome);
-function multiplicar(primeiroValor, segundoValor) {
-    const resultadoMultiplicar = primeiroValor * segundoValor;
-    return resultadoMultiplicar;
+function somar(primeiroValor, segundoValor) {
+    const resultado = primeiroValor + segundoValor;
+    return resultado;
 }
-const resultado = multiplicar(1994, 2025);
-console.log(resultado);
